@@ -27,9 +27,9 @@
 ----
 Using curl in the terminal:
 
-'''
+```
 $ curl --request GET 'https://train-dz1w9314dfq7ak9g7ca6-gpt2-train-teachable-ainize.endpoint.ainize.ai/ping'
 {
   "status": "Healthy"
 }
-'''
+```
