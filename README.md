@@ -20,8 +20,15 @@
 ----
 - [Barack Obama Tweets](https://www.kaggle.com/datacrux/barack-obama-twitterdata-from-20122019)
 - [Shinzo Abe Tweets](https://www.kaggle.com/team-ai/shinzo-abe-japanese-prime-minister-twitter-nlp)
-- [Joe Biden Tweets] (https://www.kaggle.com/rohanrao/joe-biden-tweets)
-- [Donald Trump Tweets] (https://www.kaggle.com/kingburrito666/better-donald-trump-tweets)
+- [Joe Biden Tweets](https://www.kaggle.com/rohanrao/joe-biden-tweets)
+- [Donald Trump Tweets](https://www.kaggle.com/kingburrito666/better-donald-trump-tweets)
 
+## Healthy Check
+----
+Using curl in the terminal:
 
+$ curl --request GET 'https://train-dz1w9314dfq7ak9g7ca6-gpt2-train-teachable-ainize.endpoint.ainize.ai/ping'
+{
+  "status": "Healthy"
+}
 
