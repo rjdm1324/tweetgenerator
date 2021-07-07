@@ -1,0 +1,23 @@
+.Sends{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.input{
+    width: 50%;
+    height: auto;
+    line-height: normal;
+    padding: .7em .5em;
+    font-family: inherit;
+    border: 1px solid #999;
+    border-radius: 5em;
+    -webkit-appearance: none;
+}
+
+.button{
+    border: none;
+    width: 48px;
+    height: 38px;
+    cursor: pointer;
+   background: url("https://img.icons8.com/color/48/000000/twitter--v1.png");
+}
