@@ -1,7 +1,6 @@
-import React from 'react';
 import Receives from './Receives';
 
-const RightPane = () =>{
+const RightPane = () =>{  
     return(
         <div className="pane">
             <Receives/>

@@ -26,7 +26,7 @@ const vectorPrediction = async(text) => {
   });
     const response = await axios({
         method :'post',
-        url : 'https://train-dz1w9314dfq7ak9g7ca6-gpt2-train-teachable-ainize.endpoint.ainize.ai/predictions/gpt-2-en-small-finetune',
+        url : 'https://train-9f7heqpc7bvul9o5pndu-gpt2-train-teachable-ainize.endpoint.ainize.ai/predictions/gpt-2-en-large-finetune',
         headers : {'Content-Type' : 'application/json'},
         data : {"text" : vec,
                 "num_samples" : 3,

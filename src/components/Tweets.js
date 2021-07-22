@@ -19,6 +19,7 @@ const Tweets = ({text}) =>{
         a(); 
    
     },[text]);
+    
     const containerStyle ={
         height : "300px",
         padding : " 2rem 2rem",
@@ -28,6 +29,7 @@ const Tweets = ({text}) =>{
         margin : "0"
     }
     const tweetList = Object.values(tweets);
+    
     return(
         <>
         <h2 style={{textAlign:"center", color:"white"}}> {isLoading && <p>Loading ...</p>}</h2>

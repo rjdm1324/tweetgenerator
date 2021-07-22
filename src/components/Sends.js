@@ -8,7 +8,7 @@ const Sends = ({value,setValue})=>{
 
     useEffect(()=>{
         setInput(value)
-    },[]);
+    },[value]);
 
     const onChange=(e)=>{
         const {target :{value}}=e;
